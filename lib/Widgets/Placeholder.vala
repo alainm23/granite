@@ -74,7 +74,8 @@ public class Granite.Placeholder : Gtk.Widget {
         description_label.add_css_class (Granite.STYLE_CLASS_H2_LABEL);
 
         buttonbox = new Gtk.Box (Gtk.Orientation.VERTICAL, 0) {
-            visible = false
+            visible = false,
+            margin_top = 12
         };
 
         var grid = new Gtk.Grid ();
